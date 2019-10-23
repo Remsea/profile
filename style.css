@@ -71,7 +71,7 @@ a:hover
 
 .container {
 margin: auto;
-width: 800px;
+width: 720px;
 
 }
 
@@ -157,7 +157,7 @@ box-shadow: 0 10px 30px rgba(0,0,0,.1);
 @media (max-width: 576px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 350px;
   }
 }
 
