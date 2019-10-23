@@ -29,6 +29,7 @@ h3
 font-size: 1.2em;
 margin: auto;
 width: fit-content;
+margin-bottom: 20px;
 }
 
 .list-inline {
@@ -80,9 +81,9 @@ box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
 
 .img-circle {
-  border-radius: 50%;
-  width: 120px;
-  box-shadow: 0 10px 10px rgba(0,0,0,.1);
+  border-radius: 35%;
+  width: 200px;
+  /*box-shadow: 0 10px 10px rgba(0,0,0,.1);*/
 }
 
 
@@ -130,7 +131,7 @@ box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
 
 .card-small {
-  width:150px;
+  width:250px;
   margin: auto;
   background-color: transparent;
   box-shadow: none;
