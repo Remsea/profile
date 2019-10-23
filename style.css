@@ -1,0 +1,171 @@
+/* Style.css*/
+
+body {
+
+ font-family: 'Roboto', sans-serif;
+ font-weight: normal;
+ background-color: rgb(255,255,255);
+ color: rgb(15,15,15);
+ word-spacing: 0.02em;
+ font-size: 1em;
+ line-height: 1em;
+}
+
+
+li {
+  list-style: none;
+}
+
+h3 > ul > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.no-padding {
+  padding: 0px;
+}
+
+h3
+{
+font-size: 1.2em;
+margin: auto;
+width: fit-content;
+}
+
+.list-inline {
+  list-style: none;
+  display: inline-block;
+}
+
+
+h1, h2, h3 {
+
+color: rgb(50,50,50);
+font-family: 'oswald', sans-serif;
+line-height: 1.6em;
+}
+
+h1
+{
+  font-size: 1.6em;
+  color: rgb(171,171,171);
+}
+
+h2
+{
+font-size: 1.4em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(20,20,40);
+}
+ul.grey a {
+  color: rgb(220,220,220);
+}
+
+a:hover
+{
+  color: blue;
+}
+
+.container {
+margin: auto;
+width: 800px;
+
+}
+
+.card-border {
+border-radius: 5px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 120px;
+  box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+
+
+
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  margin: 20px;
+}
+
+.card-title{
+
+  background-color: rgb(245,245,245);
+  border-radius: 50%;
+  width: 200px;
+  position:relative;
+  border:none;
+  color: rgb(171,171,171);
+}
+
+.bubble {
+  border-radius: 50px;
+  position: absolute;
+
+  width: 30px;
+  height: 30px;
+  background-color: rgb(245,245,245);
+  box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+.one{
+  top:82px;
+  right: -30px;
+}
+.two{
+  top:105px;
+  right: -75px;
+}
+.three{
+  top:135px;
+  right: -110px;
+}
+
+.card-small {
+  width:150px;
+  margin: auto;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+
+}
+
+
+
+
+.icon-espaced {
+  word-spacing: 70px;
+  color: rgb(171,171,171);
+
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+.one {
+  visibility: hidden;
+}
+
+.two{
+  top:116px;
+  right: 87px;
+}
+.three{
+  top:148px;
+  right: 54px;
+}
+
+
+}
+
